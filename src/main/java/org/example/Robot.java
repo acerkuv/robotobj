@@ -7,7 +7,7 @@ public class Robot implements Move{
     private int x;
     private int y;
 
-    Robot(int x, int y){
+    public Robot(int x, int y){
         this.x = x;
         this.y = y;
 
