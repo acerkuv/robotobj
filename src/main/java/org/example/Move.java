@@ -1,6 +1,8 @@
 package org.example;
 
 public interface Move {
-    int[] step(Direct d);
+    Object step(Direct d);
+
+    boolean equals(Object o);
 }
 
